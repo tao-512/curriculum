@@ -1,0 +1,125 @@
+.body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto; 
+/* wrapperクラスを中央寄せ */
+}
+
+/** header **/
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+
+.flex-containe {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.flex-containe1 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 20px 0 0 20px ;
+    background-color: #a9004d;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px ;
+}
+
+
+.flex-containe2 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    background-color: #a9004d;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 10px 10px 10px 0px ;
+}
+
+.flex-containe3 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 20px 20px 0 0;
+    background-color: #a9004d;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 10px 10px 10px 0px ;
+}
+
+
+/** end of header **//** contents **/
+
+.contents {
+    height: 250x;
+}
+
+/** left **/
+
+.left {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80dfa8;
+}
+
+/** end of left **//** right **/
+
+.right {
+    float: right;
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+}
+
+.right-innerbox1 {
+    width: 140px;
+    height: 40px;
+    margin: 40px 60px 10px 40px;
+    background-color: #ff863f;
+    border: #eee 5px solid;
+    
+}
+
+.right-innerbox2 {
+    width: 140px;
+    height: 40px;
+    margin: 0 60px 10px 40px;
+    background-color: #ff863f;
+    border: #eee 5px solid;
+    
+}
+
+.right-innerbox3 {
+    width: 140px;
+    height: 40px;
+    margin: 0 60px 40px 40px;
+    background-color: #ff863f;
+    border: #eee 5px solid;
+    
+}
+
+/** end of right **/
+/** end of contents **/
+/** footer **/
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+
+/** end of footer **/

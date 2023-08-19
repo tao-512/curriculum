@@ -1,0 +1,67 @@
+/* ウィンドウ幅が最大479pxまでの場合に適用 */
+@media screen and (max-width: 479px) {
+
+    .flex-containe {
+        flex-direction: column;
+    }
+
+    .contents {
+        float: none;
+    }
+
+
+    .wrapper {
+        max-width: 200px;
+    }
+
+    .header {
+        height: 200px;
+    }
+
+
+    .flex-containe1 {
+        margin: 10px 70px 0 70px;
+        border-width: 10px 10px 10px 10px ;
+    }
+    
+    
+    .flex-containe2 {
+        margin: 0 70px 0 70px ;
+        border-width: 10px 10px 10px 10px ;
+    }
+    
+    .flex-containe3 {
+        margin: 0 70px 0 70px ;
+
+        border-width: 10px 10px 10px 10px ;
+    }
+    
+
+    .left {
+        height: 100px;
+        width: 200px;
+
+    }
+
+    .right {
+        width: 200px;
+        height: 200px;
+    }
+
+    .right-innerbox1 {
+        width: 130px;
+        margin: 20px 30px 10px 30px;
+    }
+    
+    .right-innerbox2 {
+        width: 130px;
+        margin: 0 0px 10px 30px;
+        
+    }
+    
+    .right-innerbox3 {
+        width: 130px;
+        margin: 0 0px 0px 30px;
+        
+    }
+}
